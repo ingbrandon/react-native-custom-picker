@@ -1,0 +1,66 @@
+{
+  "_from": "react-native-custom-picker",
+  "_id": "react-native-custom-picker@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PYDZi3to/L3cRMycVGSLcnvjzwBYYk3hSt2qyUl7MfQ1OySUNxYOWcFGmxQ+iCpTC2AtTn7CktE3vPHTtO9lzA==",
+  "_location": "/react-native-custom-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-custom-picker",
+    "name": "react-native-custom-picker",
+    "escapedName": "react-native-custom-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-custom-picker/-/react-native-custom-picker-0.1.0.tgz",
+  "_shasum": "f8e9221952572b6c5c4d4b962592d4682e19f06d",
+  "_spec": "react-native-custom-picker",
+  "_where": "F:\\React native\\appservi",
+  "author": {
+    "name": "Budi Adiono"
+  },
+  "bugs": {
+    "url": "https://github.com/budiadiono/react-native-custom-picker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React native customizable picker component.",
+  "devDependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-native": "^0.52.16",
+    "awesome-typescript-loader": "^3.5.0",
+    "prettier": "^1.11.1",
+    "react": "^16.2.0",
+    "react-native": "^0.54.0",
+    "source-map-loader": "^0.2.3",
+    "tslib": "^1.9.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.9.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "homepage": "https://github.com/budiadiono/react-native-custom-picker#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-native-custom-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budiadiono/react-native-custom-picker.git"
+  },
+  "scripts": {
+    "build": "rm -rf typings && tsc -d --declarationDir ./typings && prettier ./typings/**/*.d.ts --write"
+  },
+  "typings": "typings/index.d.ts",
+  "version": "0.1.0"
+}
